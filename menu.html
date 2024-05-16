@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- Primary Meta Tags -->
+      <title>Coffee House</title>
+      <meta
+         name="title"
+         content="Coffee House Menu - Explore Our Delicious Coffee Selection"
+      />
+      <meta
+         name="description"
+         content="Browse the Coffee House menu to find your favorite coffee drinks. From classic espressos to unique specialty brews, we have something for every coffee lover. See our full menu now!"
+      />
+
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website" />
+      <meta
+         property="og:url"
+         content="https://rolling-scopes-school.github.io/abduazimkhoja-JSFE2023Q4/coffee-house/index.html"
+      />
+      <meta
+         property="og:title"
+         content="Coffee House Menu - Explore Our Delicious Coffee Selection"
+      />
+      <meta
+         property="og:description"
+         content="Browse the Coffee House menu to find your favorite coffee drinks. From classic espressos to unique specialty brews, we have something for every coffee lover. See our full menu now!"
+      />
+      <meta
+         property="og:image"
+         content="https://i.postimg.cc/gjDC6rtw/coffee-house-1600-800-HOME-minify.png"
+      />
+
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+         property="twitter:domain"
+         content="rolling-scopes-school.github.io"
+      />
+      <meta
+         property="twitter:url"
+         content="https://rolling-scopes-school.github.io/abduazimkhoja-JSFE2023Q4/coffee-house/index.html"
+      />
+      <meta
+         property="twitter:title"
+         content="Coffee House Menu - Explore Our Delicious Coffee Selection"
+      />
+      <meta
+         property="twitter:description"
+         content="Browse the Coffee House menu to find your favorite coffee drinks. From classic espressos to unique specialty brews, we have something for every coffee lover. See our full menu now!"
+      />
+      <meta
+         property="twitter:image"
+         content="https://i.postimg.cc/gjDC6rtw/coffee-house-1600-800-HOME-minify.png"
+      />
+
+      <meta
+         name="keywords"
+         content="Coffee shop, Best coffee, Coffee drinks, Espresso, Specialty coffee, Cozy coffee shop, Coffee menu, Latte, Cappuccino, Freshly brewed coffee, Coffee lovers, Coffee retreat, Barista, Local coffee shop, Coffee and pastries, Coffee beans, Friendly service, Comfortable atmosphere, Coffee experience"
+      />
+      <meta name="robots" content="index, follow" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="language" content="English" />
+      <meta name="author" content="Abduazimkhoja" />
+
+      <link rel="stylesheet" href="./css/style.css" />
+      <link rel="icon" type="image/x-icon" href="./img/icons/favicon.svg" />
+
+      <title>Menu</title>
+   </head>
+
+   <body>
+      <dialog id="productModal" class="modal"></dialog>
+      <div class="container">
+         <header class="header flex-row">
+            <a href="index.html">
+               <img
+                  class="logo"
+                  src="./img/icons/logo.png"
+                  alt="coffee house logotype"
+               />
+            </a>
+
+            <nav class="nav">
+               <ul class="nav__list flex-row">
+                  <li class="nav__item">
+                     <a href="index.html#favorite" class="link dark nav__link"
+                        >Favorite coffee</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a href="index.html#about" class="link dark nav__link"
+                        >About</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a href="index.html#app" class="link dark nav__link"
+                        >Mobile App</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a href="#contact" class="link dark nav__link"
+                        >Contact Us</a
+                     >
+                  </li>
+                  <li class="nav__item-menu">
+                     <a
+                        href="menu.html"
+                        class="header__link-menu link dark active"
+                        >menu<i class="icon-cup"></i
+                     ></a>
+                  </li>
+               </ul>
+            </nav>
+
+            <a
+               href="menu.html"
+               class="header__link-men active link dark none-768"
+               >menu<i class="icon-cup"></i
+            ></a>
+            <button class="button-burger"></button>
+         </header>
+
+         <main class="main">
+            <section class="product mb-extra-lg">
+               <h2 class="main__title">
+                  Behind each of our cups hides an
+                  <span class="accent">amazing surprise</span>
+               </h2>
+               <div class="product__filter flex-row">
+                  <button name="coffee" class="product__tab button-tab active">
+                     <i class="button-tab__icon">☕️</i>Coffee
+                  </button>
+                  <button name="tea" class="product__tab button-tab">
+                     <i class="button-tab__icon">🍶</i>Tea
+                  </button>
+                  <button name="dessert" class="product__tab button-tab">
+                     <i class="button-tab__icon">🍰</i>Dessert
+                  </button>
+               </div>
+
+               <ul class="product__list"></ul>
+               <button class="product__load button-circle dark">
+                  <i class="icon-refresh"></i>
+               </button>
+            </section>
+         </main>
+
+         <footer id="contact" class="footer flex-row">
+            <div class="footer__block">
+               <h2 class="text-light mb-lg">
+                  Sip, Savor, Smile.
+                  <span class="accent">It’s coffee time!</span>
+               </h2>
+               <div class="footer__social flex-row">
+                  <button class="button-circle light">
+                     <i class="footer__icon icon-twitter"></i>
+                  </button>
+                  <button class="button-circle light">
+                     <i class="footer__icon icon-instagram"></i>
+                  </button>
+                  <button class="button-circle light">
+                     <i class="footer__icon icon-facebook"></i>
+                  </button>
+               </div>
+            </div>
+            <div class="footer__block text-light">
+               <h3 class="mb-lg">Contact us</h3>
+               <div class="footer__contact">
+                  <a
+                     href="https://maps.app.goo.gl/hq517kF1DYsAXYRj6"
+                     class="link light"
+                     ><i class="icon-location"></i>8558 Green Rd., LA</a
+                  >
+                  <a href="tel:+16035550123" class="link light"
+                     ><i class="icon-phone"></i>+1 (603) 555-0123</a
+                  >
+                  <p class="text flex-row gap-sm">
+                     <i class="icon-time"></i>Mon-Sat: 9:00 AM – 23:00 PM
+                  </p>
+               </div>
+            </div>
+         </footer>
+      </div>
+
+      <script type="module" src="./js/menu.js"></script>
+   </body>
+</html>
+
+<!-- 🍶 🍰 ☕️ -->

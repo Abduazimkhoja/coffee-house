@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* element */
+* {
+   font-family: "Inter", sans-serif;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: var(--color-bg-body);
+   color: var(--color-text-dark);
+}
+
+.container {
+   max-width: 1440px;
+   width: 100%;
+
+   padding: 20px 40px 40px;
+   margin: 0 auto;
+}
+
+button,
+.button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: var(--spacing-sm);
+
+   transition: var(--animate-color), var(--animate-transform);
+
+   border-radius: var(--rounding-lg);
+   cursor: pointer;
+}
+
+
+
+button:active,
+.button:active {
+   transform: scale(1);
+}
+
+.logo {
+   width: 100px;
+   height: 60px;
+}
+
+.text-center {
+   text-align: center;
+}
+
+/* stylized: h1 | h2 | h3 | body | p | .burger-link | .caption | button | a */
+
+/* font */
+h1 {
+   font-size: var(--adaptive-h1);
+   line-height: 105%;
+}
+
+h2 {
+   font-size: var(--adaptive-h2);
+}
+
+h3 {
+   font-size: 24px;
+}
+
+body,
+p {
+   font-weight: 400;
+}
+
+.burger-link {
+   font-size: 32px;
+}
+
+.caption {
+   font-size: 10px;
+   line-height: 140%;
+}
+
+/* common styles */
+h1,
+h2,
+h3,
+a,
+.burger-link,
+.caption {
+   font-weight: 600;
+}
+
+.accent {
+   font-style: italic;
+   color: var(--color-text-accent);
+}
+
+h2,
+h3,
+.burger-link {
+   line-height: 125%;
+}
+
+body,
+p,
+button,
+a {
+   font-size: 16px;
+   line-height: 150%;
+}
+
+/* text theme mode */
+.text-light {
+   color: var(--color-text-light);
+}
+
+.text-dark {
+   color: var(--color-text-dark);
+}
+
+.text-accent {
+   color: var(--color-text-accent);
+}
+
+/* flex */
+.flex,
+.flex-center,
+.flex-row,
+.flex-column {
+   display: flex;
+}
+
+.flex-center {
+   align-items: center;
+   justify-content: center;
+}
+
+.flex-row {
+   align-items: center;
+}
+
+.flex-column {
+   flex-direction: column;
+   align-items: center;
+}
+
+/* colors */
+
+.bg-body {
+   background: var(--color-bg-body);
+}
+.bg-container {
+   background: var(--color-bg-container);
+}
+.bg-backdrop {
+   background: var(--color-bg-backdrop);
+}
+
+/* margin */
+
+.mb-extra-lg {
+   margin-bottom: var(--spacing-extra-lg);
+}
+
+.mb-lg {
+   margin-bottom: var(--spacing-lg);
+}
+
+/* gap */
+
+.gap-sm {
+   gap: var(--spacing-sm);
+}

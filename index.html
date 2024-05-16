@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <!-- Meta tags -->
+      <!-- Primary Meta Tags -->
+      <meta
+         name="title"
+         content="Welcome to Coffee House - Your Cozy Coffee Retreat"
+      />
+      <meta
+         name="description"
+         content="Discover the perfect blend of coffee and comfort at Coffee House. Enjoy our cozy atmosphere, friendly service, and a variety of delicious coffee drinks. Visit us today!"
+      />
+
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website" />
+      <meta
+         property="og:url"
+         content="https://rolling-scopes-school.github.io/abduazimkhoja-JSFE2023Q4/coffee-house/index.html"
+      />
+      <meta
+         property="og:title"
+         content="Welcome to Coffee House - Your Cozy Coffee Retreat"
+      />
+      <meta
+         property="og:description"
+         content="Discover the perfect blend of coffee and comfort at Coffee House. Enjoy our cozy atmosphere, friendly service, and a variety of delicious coffee drinks. Visit us today!"
+      />
+      <meta
+         property="og:image"
+         content="https://i.postimg.cc/gjDC6rtw/coffee-house-1600-800-HOME-minify.png"
+      />
+
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta
+         property="twitter:domain"
+         content="rolling-scopes-school.github.io"
+      />
+      <meta
+         property="twitter:url"
+         content="https://rolling-scopes-school.github.io/abduazimkhoja-JSFE2023Q4/coffee-house/index.html"
+      />
+      <meta
+         property="twitter:title"
+         content="Welcome to Coffee House - Your Cozy Coffee Retreat"
+      />
+      <meta
+         property="twitter:description"
+         content="Discover the perfect blend of coffee and comfort at Coffee House. Enjoy our cozy atmosphere, friendly service, and a variety of delicious coffee drinks. Visit us today!"
+      />
+      <meta
+         property="twitter:image"
+         content="https://i.postimg.cc/gjDC6rtw/coffee-house-1600-800-HOME-minify.png"
+      />
+
+      <meta
+         name="keywords"
+         content="Coffee shop, Best coffee, Coffee drinks, Espresso, Specialty coffee, Cozy coffee shop, Coffee menu, Latte, Cappuccino, Freshly brewed coffee, Coffee lovers, Coffee retreat, Barista, Local coffee shop, Coffee and pastries, Coffee beans, Friendly service, Comfortable atmosphere, Coffee experience"
+      />
+      <meta name="robots" content="index, follow" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="language" content="English" />
+      <meta name="author" content="Abduazimkhoja" />
+      <!-- Meta tags -->
+
+      <link rel="stylesheet" href="./css/style.css" />
+      <link rel="icon" type="image/x-icon" href="./img/icons/favicon.svg" />
+
+      <title>Coffee House</title>
+   </head>
+
+   <body>
+      <div class="container">
+         <header class="header flex-row">
+            <a href="index.html">
+               <img
+                  class="logo"
+                  src="./img/icons/logo.png"
+                  alt="coffee house logotype"
+               />
+            </a>
+
+            <nav class="nav">
+               <ul class="nav__list flex-row">
+                  <li class="nav__item">
+                     <a href="#favorite" class="link dark nav__link"
+                        >Favorite coffee</a
+                     >
+                  </li>
+                  <li class="nav__item">
+                     <a href="#about" class="link dark nav__link">About</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#app" class="link dark nav__link">Mobile App</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#contact" class="link dark nav__link"
+                        >Contact Us</a
+                     >
+                  </li>
+                  <li class="nav__item-menu">
+                     <a href="menu.html" class="header__link-menu link dark"
+                        >menu<i class="icon-cup"></i
+                     ></a>
+                  </li>
+               </ul>
+            </nav>
+
+            <a href="menu.html" class="header__link-menu link dark none-768"
+               >menu<i class="icon-cup"></i
+            ></a>
+            <button class="button-burger"></button>
+         </header>
+         <main class="main">
+            <section id="intro" class="intro mb-extra-lg">
+               <div class="intro__content">
+                  <h1 class="text-light">
+                     <span class="accent">Enjoy</span> premium coffee at our
+                     charming cafe
+                  </h1>
+                  <p class="text-light">
+                     With its inviting atmosphere and delicious coffee options,
+                     the Coffee House Resource is a popular destination for
+                     coffee lovers and those seeking a warm and inviting space
+                     to enjoy their favorite beverage.
+                  </p>
+                  <a href="menu.html" class="button button-primary"
+                     >Menu<i class="button-primary__icon icon-cup"></i
+                  ></a>
+               </div>
+            </section>
+
+            <section id="favorite" class="favorite">
+               <h2 class="text-center mb-lg">
+                  Choose your <span class="accent"> favorite </span> coffee
+               </h2>
+               <div class="slider flex-row">
+                  <button
+                     id="slider-prev"
+                     class="slider__button button-circle dark left none-500"
+                  >
+                     <i class="icon-arrow"></i>
+                  </button>
+
+                  <div class="slider__content">
+                     <ul class="slider__list"></ul>
+                  </div>
+
+                  <button
+                     id="slider-next"
+                     class="slider__button button-circle dark none-500"
+                  >
+                     <i class="icon-arrow"></i>
+                  </button>
+               </div>
+               <div id="dots" class="flex-center slider__dots">
+                  <button name="0" class="slider__dot dark active"></button>
+                  <button name="1" class="slider__dot dark"></button>
+                  <button name="2" class="slider__dot dark"></button>
+               </div>
+            </section>
+
+            <section id="about" class="about mb-extra-lg">
+               <h2 class="mb-lg">
+                  Resource is
+                  <span class="accent">the perfect and cozy place</span> where
+                  you can enjoy a variety of hot beverages, relax, catch up with
+                  friends, or get some work done.
+               </h2>
+               <div class="about__content">
+                  <div class="about__block one">
+                     <img
+                        src="./img/about/about-1.jpg"
+                        alt=""
+                        class="zoom-image"
+                     />
+                  </div>
+                  <div class="about__block two none-768">
+                     <img
+                        src="./img/about/about-2.jpg"
+                        alt=""
+                        class="zoom-image"
+                     />
+                  </div>
+                  <div class="about__block three none-768">
+                     <img
+                        src="./img/about/about-3.jpg"
+                        alt=""
+                        class="zoom-image"
+                     />
+                  </div>
+                  <div class="about__block four">
+                     <img
+                        src="./img/about/about-4.jpg"
+                        alt=""
+                        class="zoom-image"
+                     />
+                  </div>
+               </div>
+            </section>
+            <section id="app" class="app mb-extra-lg">
+               <div class="app__block flex-column">
+                  <h2>
+                     <span class="accent">Download</span>
+                     our apps to start ordering
+                  </h2>
+                  <p>
+                     Download the Resource app today and experience the comfort
+                     of ordering your favorite coffee from wherever you are
+                  </p>
+                  <div class="app__buttons flex">
+                     <a href="" class="button button-app">
+                        <i class="button-app__icon icon-app-store"></i>
+                        <div class="button-app__block">
+                           <p class="button-app__text">Available on the</p>
+                           <p class="button-app__name">App Store</p>
+                        </div>
+                     </a>
+
+                     <a href="" class="button button-app">
+                        <i class="button-app__icon icon-google-play"></i>
+                        <div class="button-app__block">
+                           <p class="button-app__text">Available on</p>
+                           <p class="button-app__name">Google Play</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="app__block">
+                  <img src="./img/other/mobile.png" alt="" class="app__image" />
+               </div>
+            </section>
+         </main>
+
+         <footer id="contact" class="footer flex-row">
+            <div class="footer__block">
+               <h2 class="text-light mb-lg">
+                  Sip, Savor, Smile.
+                  <span class="accent">It’s coffee time!</span>
+               </h2>
+               <div class="footer__social flex-row">
+                  <button class="button-circle light">
+                     <i class="footer__icon icon-twitter"></i>
+                  </button>
+                  <button class="button-circle light">
+                     <i class="footer__icon icon-instagram"></i>
+                  </button>
+                  <button class="button-circle light">
+                     <i class="footer__icon icon-facebook"></i>
+                  </button>
+               </div>
+            </div>
+            <div class="footer__block text-light">
+               <h3 class="mb-lg">Contact us</h3>
+               <div class="footer__contact">
+                  <a
+                     href="https://maps.app.goo.gl/hq517kF1DYsAXYRj6"
+                     class="link light"
+                     ><i class="icon-location"></i>8558 Green Rd., LA</a
+                  >
+                  <a href="tel:+16035550123" class="link light"
+                     ><i class="icon-phone"></i>+1 (603) 555-0123</a
+                  >
+                  <p class="text flex-row gap-sm">
+                     <i class="icon-time"></i>Mon-Sat: 9:00 AM – 23:00 PM
+                  </p>
+               </div>
+            </div>
+         </footer>
+      </div>
+
+      <script type="module" src="./js/home.js"></script>
+   </body>
+</html>

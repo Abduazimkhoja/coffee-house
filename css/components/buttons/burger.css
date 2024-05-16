@@ -1,0 +1,40 @@
+/* BURGER menu*/
+.button-burger {
+	display: none;
+   position: relative;
+
+   width: 44px;
+   height: 44px;
+}
+
+.button-burger::before,
+.button-burger::after {
+   content: "";
+   width: 16px;
+   height: 2px;
+
+   inset: 0;
+   margin: auto;
+
+   position: absolute;
+
+   background: var(--color-text-dark);
+
+   transition: var(--animate-transform);
+}
+
+.button-burger::before {
+   transform: translateY(4px);
+}
+.button-burger::after {
+   transform: translateY(-4px);
+}
+
+.button-burger.active.button-burger::before {
+   transform: rotateZ(45deg);
+}
+
+.button-burger.active.button-burger::after {
+   transform: rotateZ(-45deg);
+}
+

@@ -1,0 +1,36 @@
+@import url("./buttons/app.css");
+@import url("./buttons/burger.css");
+@import url("./buttons/circle.css");
+@import url("./buttons/filter-tab.css");
+@import url("./buttons/secondary.css");
+@import url("./buttons/primary.css");
+
+/* COMMON STYLE */
+.button-tab.active,
+.button-circle.dark.active {
+   background: var(--color-bg-container);
+   color: var(--color-text-light);
+}
+
+.button-primary,
+.button-app {
+   width: 200px;
+   height: 64px;
+}
+
+.button-secondary,
+.button-circle.dark,
+.button-burger,
+.button-app {
+   border: 1px solid var(--color-border-dark);
+}
+
+.button-burger,
+.button-circle {
+   border-radius: var(--rounding-circle);
+}
+
+.button-tab,
+.button-circle.light {
+   border: 1px solid var(--color-border-light);
+}

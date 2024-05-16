@@ -1,0 +1,32 @@
+/* ELEMENT: tab-item */
+.button-tab {
+   height: 46px;
+
+   padding: 8px 16px 8px 8px;
+
+   text-transform: capitalize;
+}
+
+.button-tab__icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   width: 30px;
+   height: 30px;
+
+   font-size: 16px;
+
+   border-radius: var(--rounding-circle);
+   background: var(--color-border-light);
+}
+
+.button-tab.active {
+   border: 1px solid var(--color-bg-container);
+}
+
+.button-tab.active .button-tab__icon,
+.button-tab:active .button-tab__icon {
+   color: var(--color-text-dark);
+   background: var(--color-bg-body);
+}

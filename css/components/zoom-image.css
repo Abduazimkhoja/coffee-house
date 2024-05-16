@@ -1,0 +1,14 @@
+.zoom-image {
+   transform: scale(1.1);
+   transition: var(--animate-transform);
+
+   width: 100%;
+   height: 100%;
+
+   object-fit: cover;
+   object-position: center;
+
+   cursor: pointer;
+
+	overflow: clip
+}

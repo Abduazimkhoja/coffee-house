@@ -1,0 +1,51 @@
+@media screen and (max-width: 500px) {
+   .none-500 {
+      display: none;
+   }
+
+   .container {
+      padding: 20px 16px 40px;
+   }
+
+   h1 {
+      line-height: 115%;
+   }
+
+   .intro {
+      padding: 60px 16px;
+      line-height: 125%;
+   }
+
+   .slider__image {
+      width: 348px;
+      height: 348px;
+   }
+
+   /* about */
+   .zoom-image {
+      transform: scale(1.24);
+   }
+
+   .app {
+      gap: var(--spacing-lg);
+   }
+
+   .app__buttons {
+      flex-direction: column;
+   }
+
+   .footer {
+      gap: var(--spacing-lg);
+      padding: 60px 16px;
+   }
+
+   /* menu page */
+   .product__filter {
+      gap: 8px;
+   }
+
+   .product__list {
+      padding: 0 19px;
+      grid-template-columns: repeat(1, 1fr);
+   }
+}

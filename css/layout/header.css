@@ -1,0 +1,13 @@
+.header {
+   justify-content: space-between;
+	padding-bottom: var(--spacing-above-md);
+}
+
+.header,
+.nav__list {
+   gap: var(--spacing-lg);
+}
+
+.nav__item-menu {
+	display: none;
+}

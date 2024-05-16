@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="icon" type="image/x-icon" href="./img/icons/favicon.svg">
+	<title>Coffee house</title>
+</head>
+
+<body>
+	<dialog id="productModal" class="modal">
+		<div class="modal__wrap">
+			<div class="modal__image">
+				<img src="./img/product/coffee-1.jpg" alt="">
+			</div>
+			<ul class="modal__content">
+				<li class="modal__text">
+					<h3 class="modal__name">Irish coffee</h3>
+					<p class="modal__description">Fragrant black coffee with Jameson Irish whiskey and whipped milk
+					</p>
+				</li>
+				<li class="modal__addons">
+					<p>Size</p>
+					<div id="modalSize" class="modal__size flex-row gap-sm">
+						<button class="button-tab active"><i class="button-tab__icon">s</i></button>
+						<button class="button-tab"><i class="button-tab__icon">m</i></button>
+						<button class="button-tab"><i class="button-tab__icon">l</i></button>
+					</div>
+				</li>
+				<li class="modal__addons">
+					<p>Additives</p>
+					<div id="modalAdditives" class="modal__additives flex-row gap-sm">
+						<button class="button-tab"><i class="button-tab__icon">1</i></button>
+						<button class="button-tab"><i class="button-tab__icon">2</i></button>
+						<button class="button-tab"><i class="button-tab__icon">3</i></button>
+					</div>
+				</li>
+				<li class="modal__total flex-row">
+					<h3>Total:</h3>
+					<h3>$000</h3>
+				</li>
+				<li class="modal__info ">
+					<i class="icon-info"></i>
+					<p class="caption">The cost is not final. Download our mobile app to see the final price and place your
+						order. Earn loyalty points and your favorite coffee with up to 20% discount.</p>
+				</li>
+				<li id="modalClose" class="modal__close">
+					<button class="button-secondary">Close</button>
+				</li>
+			</ul>
+		</div>
+	</dialog>
+
+	<dialog>
+		<h2>heloo</h2>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero vel ea quae. Ullam tenetur similique dolores?
+		</p>
+	</dialog>
+	<i class="icon-phone"></i>
+	<h1>heading-1</h1>
+	<h2>heading-2</h2>
+
+	<div class="flex bg-container">
+		<a href="" class="link dark">link<i class="icon-cup"></i></a>
+		<a href="" class="link dark active">link<i class="icon-cup"></i></a>
+		<a href="" class="link light">link<i class="icon-cup"></i></a>
+	</div>
+	<!-- <div class="zoom"><img src="./img/about/about-1.jpg" alt="" class="zoom-image"></div> -->
+	<div class="product"></div>
+
+	<div class="flex">
+		<button class="button-tab"><i class="button-tab__icon">☕️</i>Coffee</button>
+		<button class="button-tab active"><i class="button-tab__icon">🍶</i>Tea</button>
+	</div>
+
+	<button class="button-primary">Coffee<i class="button-primary__icon icon-cup"></i></button>
+	<button class="button-secondary">Coffee</button>
+
+	<div class="flex">
+		<button class="button-app">
+			<i class="button-app__icon icon-app-store"></i>
+			<div class="button-app__block">
+				<p class="button-app__text">Available on the</p>
+				<p class="button-app__name">App Store</p>
+			</div>
+		</button>
+
+		<button class="button-app">
+			<i class="button-app__icon icon-google-play"></i>
+			<div class="button-app__block">
+				<p class="button-app__text">Available on</p>
+				<p class="button-app__name">Google Play</p>
+			</div>
+		</button>
+	</div>
+
+	<div class="flex">
+		<!-- right -->
+		<button class="button-circle dark"><i class="icon-arrow"></i></button>
+		<button class="button-circle light"><i class="icon-arrow"></i></button>
+		<!-- left -->
+		<button class="button-circle dark left"><i class="icon-arrow"></i></button>
+		<button class="button-circle light left"><i class="icon-arrow"></i></button>
+	</div>
+
+	<div class="flex">
+		<button class="button-burger"></button>
+		<button class="button-burger active"></button>
+	</div>
+	<button class="product__card">click</button>
+
+
+
+	<script src="./js/utils/product-modal.js"></script>
+
+</body>
+
+<!-- 🍶 🍰 ☕️ -->
+
+</html>

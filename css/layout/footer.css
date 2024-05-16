@@ -1,0 +1,29 @@
+.footer {
+   gap: var(--spacing-extra-lg);
+   background: var(--color-bg-container);
+   padding: 100px;
+   border-radius: var(--rounding-lg);
+}
+
+.footer .text {
+   font-weight: 600;
+}
+
+.footer__block {
+   flex: 1;
+}
+
+.footer__social {
+   gap: 12px;
+}
+
+.footer__social button {
+   font-size: 24px;
+}
+
+
+.footer__contact {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-above-md);
+}

@@ -1,0 +1,20 @@
+/*  ELEMENT: Button-app */
+.button-app {
+   justify-content: start;
+   padding: 14px 20px;
+   color: var(--color-text-dark);
+}
+.button-app__icon {
+   font-size: 36px;
+}
+.button-app__block {
+   text-align: left;
+}
+
+.button-app__block * {
+   font-weight: 600;
+}
+
+.button-app__text {
+   font-size: 10px;
+}

@@ -1,0 +1,25 @@
+@import url("./variables/variables.css"); /* variables */
+
+/* elementary style */
+@import url("./reset.css"); /* null style */
+@import url("./base.css"); /* basic style */
+@import url("../img/icons/fonts/icons.css"); /* font icons */
+
+/* component style */
+@import url("./components/link.css"); /* links style */
+@import url("./components/button.css"); /* buttons style */
+@import url("./components/zoom-image.css"); /* image zoom on hover  */
+@import url("./components/slider-dot.css"); /* slider dot  */
+
+/* layout style */
+@import url("./layout/header.css"); /* header style */
+@import url("./layout/main.css"); /* main style */
+@import url("./layout/footer.css"); /* footer style */
+@import url("./layout/main-menu.css"); /* Menu Page main style */
+@import url("./layout/modal.css"); /* Menu Page main style */
+
+/* media query */
+@import url("./media/media-hover.css"); /* hover effect */
+@import url("./media/media-1200.css"); /* Menu Page main style */
+@import url("./media/media-768.css"); /* Menu Page main style */
+@import url("./media/media-500.css"); /* Menu Page main style */

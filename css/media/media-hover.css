@@ -1,0 +1,121 @@
+@media (hover: hover) {
+   /* base */
+
+   button:hover,
+   .button:hover {
+      transform: scale(1.02);
+   }
+
+   /* button */
+
+   .button-tab:hover,
+   .button-secondary:hover,
+   .button-app:hover,
+   .button-circle:hover.dark {
+      background: var(--color-bg-container);
+      color: var(--color-text-light);
+   }
+
+   /* link */
+
+   .link:hover.link::before {
+      transform: scale(1);
+   }
+
+   /* slider-dot */
+
+   .slider__dot:hover {
+      background: var(--color-border-dark);
+   }
+
+   /* zoom-image */
+
+   .zoom-image:hover {
+      transform: scale(1);
+   }
+
+   /* circle */
+   .button-circle.light:hover {
+      background: var(--color-bg-body);
+      color: var(--color-text-dark);
+      border-color: var(--color-bg-body);
+   }
+
+   /* filter tab */
+   .button-tab:hover {
+      background: var(--color-bg-container);
+      border: 1px solid var(--color-bg-container);
+   }
+
+   .button-tab:hover .button-tab__icon {
+      background: var(--color-bg-body);
+      color: var(--color-text-dark);
+   }
+
+   /* primary */
+
+   .button-primary:hover .button-primary__icon {
+      opacity: 1;
+      font-size: 20px;
+   }
+}
+
+@media (hover: none) {
+   /* base */
+
+   button:active,
+   .button:active {
+      transform: scale(1.02);
+   }
+
+   /* button */
+
+   .button-tab:active,
+   .button-secondary:active,
+   .button-app:active,
+   .button-circle:active.dark {
+      background: var(--color-bg-container);
+      color: var(--color-text-light);
+   }
+
+   /* link */
+   /* 
+   .link:active.link::before {
+      transform: scale(1);
+   } */
+
+   /* slider-dot */
+
+   .slider__dot:active {
+      background: var(--color-border-dark);
+   }
+
+   /* zoom-image */
+
+   .zoom-image:active {
+      transform: scale(1);
+   }
+
+   /* circle */
+   .button-circle.light:active {
+      background: var(--color-bg-body);
+      color: var(--color-text-dark);
+      border-color: var(--color-bg-body);
+   }
+
+   /* filter tab */
+   .button-tab:active {
+      border: 1px solid var(--color-bg-container);
+   }
+
+   .button-tab:active .button-tab__icon {
+      background: var(--color-bg-body);
+   }
+
+   /* primary */
+
+   .button-primary:active .button-primary__icon {
+      opacity: 1;
+      font-size: 20px;
+   }
+}
